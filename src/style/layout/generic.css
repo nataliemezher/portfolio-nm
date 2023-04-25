@@ -1,0 +1,27 @@
+@import "../settings/colors.css";
+@import "../settings/colors.css";
+@import url("https://fonts.google.com/specimen/Space+Mono?query=space+mono");
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-seashell);
+}
+
+body {
+  font-family: "Space Mono", monospace;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+.content {
+  padding: 2rem 4rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .content {
+    padding: 2rem 1.5rem;
+  }
+}
