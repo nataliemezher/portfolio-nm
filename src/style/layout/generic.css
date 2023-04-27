@@ -16,13 +16,17 @@ a {
   color: var(--color-black);
 }
 
-section, .header {
+a:hover {
+  color: var(--color-orange);
+}
+
+section, .header, .footer{
     padding: 2rem 4rem;
 }
 
 
 @media only screen and (max-width: 900px) {
-  section, .header {
+  section, .header, .footer {
     padding: 2rem 1rem;
   }
 }
