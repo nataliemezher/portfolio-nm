@@ -8,10 +8,10 @@ function Footer() {
     <footer className="footer">
       <div className="footer-grid">
         <div className="footer-social">
-          <a target="_blank" rel="noreferrer" href="https://github.com/nataliemezher">
+          <a target="_blank"  rel="noopener" href="https://github.com/nataliemezher">
             <img alt="github-icon" src={github_link} style={{ width: "40px" }}></img>
           </a>
-          <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/natalie-mezher-81a913224/">
+          <a target="_blank" rel="noopener" href="https://linkedin.com/in/natalie-mezher-81a913224/">
             <img alt="linkedin-icon" src={linkedin_link} style={{ width: "40px" }}></img>
           </a>
         </div>
