@@ -74,7 +74,7 @@
     display: none;
     background-color: var(--color-seashell);
     box-shadow: var(--box-shadow-black);
-    border: 3px solid var(--color-orange);
+    border-bottom: 3px solid var(--color-orange);
     height: 100%;
   }
   .header-navigation-mobile__menu.active {
@@ -83,6 +83,7 @@
     left: 0;
     width: 100%;
     height: auto;
+    
   }
 
   .header-navigation-mobile__menu-list {
