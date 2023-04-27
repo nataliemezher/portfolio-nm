@@ -12,16 +12,17 @@ body {
 }
 
 a {
-    text-decoration: none;
-    color: var(--color-black);
+  text-decoration: none;
+  color: var(--color-black);
 }
 
-.content {
-  padding: 2rem 4rem;
+section, .header {
+    padding: 2rem 4rem;
 }
+
 
 @media only screen and (max-width: 900px) {
-  .content {
-    padding: 2rem 1.5rem;
+  section, .header {
+    padding: 2rem 1rem;
   }
 }
