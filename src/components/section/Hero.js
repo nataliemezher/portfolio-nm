@@ -8,7 +8,9 @@ function Hero() {
         <img alt="profileimg" src={profile_image}></img>
       </div>
       <div className="hero-section__cta">
-        <h1 className="hero-section__cta-title">Web developer</h1>
+       <div className="typewriter">
+        <h1 className="hero-section__cta-title">Web developer.</h1>
+        </div>
         <div className="hero-section__cta-text">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
