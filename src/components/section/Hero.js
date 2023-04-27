@@ -13,10 +13,8 @@ function Hero() {
         </div>
         <div className="hero-section__cta-text">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            I'm a developer who's passionate about code and has a keen eye for detail.
           </p>
-          L
         </div>
         <button className="hero-section__cta-button primary-button">
           {" "}
