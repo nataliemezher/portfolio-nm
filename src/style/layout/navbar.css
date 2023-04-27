@@ -7,6 +7,8 @@
 
 .header-logo {
   display: flex;
+  align-content: center;
+  flex-wrap: wrap;
   margin: 1rem 0;
   color: var(--color-black);
 }
@@ -79,11 +81,10 @@
   }
   .header-navigation-mobile__menu.active {
     display: block;
-    position:absolute;
+    position: absolute;
     left: 0;
     width: 100%;
     height: auto;
-    
   }
 
   .header-navigation-mobile__menu-list {
