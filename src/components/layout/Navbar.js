@@ -16,14 +16,14 @@ function Navbar() {
         <div className="header-primary-menu">
           <ul className="primary-menu__list">
             <li className="primary-menu__item">
-              <Link to="cv">CV</Link>
+              <Link to="/cv">CV</Link>
             </li>
             <li className="primary-menu__item">
               {" "}
-              <Link to="projects">Projects</Link>
+              <Link to="/projects">Projects</Link>
             </li>
             <li className="primary-menu__item primary-menu__item-contact primary-button">
-              <Link to="contact">Contact</Link>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
