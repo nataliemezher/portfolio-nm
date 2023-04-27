@@ -5,7 +5,7 @@ function Hero() {
   return (
     <section className="hero-section">
       <div className="hero-section__image">
-        <img alt="profile-image" src={profile_image}></img>
+        <img alt="profileimg" src={profile_image}></img>
       </div>
       <div className="hero-section__cta">
         <h1 className="hero-section__cta-title">Web developer</h1>
