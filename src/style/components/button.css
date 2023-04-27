@@ -8,7 +8,7 @@
     text-transform: uppercase;
 }
 
-.primary-button:hover {
+.primary-button:hover, .primary-button:active, .primary-button:focus {
     background-color: var(--color-mint);
     border: solid 3px var(--color-dark-teal);
 }
@@ -23,6 +23,20 @@
     color: var(--color-black);
     text-transform: uppercase;
     background-color: var(--color-seashell);
-    border: solid 3px var(--color-dark-orange);
+    border: solid 3px var(--color-orange);
     box-shadow: 3px 3px var(--color-black);
+}
+
+.secondary-button:hover, .secondary-button:active, .secondary-button:focus {
+    background-color: var(--color-peach);
+    border: solid 3px var(--color-dark-orange);
+}
+
+.secondary-button a:hover {
+    color: var(--color-black);
+}
+
+.secondary-button:active,  .primary-button:active {
+    transform: translateY(2px);
+    box-shadow: 2px 2px var(--color-black);
 }
