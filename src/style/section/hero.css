@@ -15,11 +15,11 @@
 .hero-section__cta-title {
   padding: 1rem 0;
   width: fit-content;
-  font-size: 32px;
+  font-size: 22px;
 }
 .hero-section__cta-text {
   padding: 1rem 0;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.85rem;
 }
 .hero-section__cta-button {
