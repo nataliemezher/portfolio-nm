@@ -78,7 +78,11 @@
     height: 100%;
   }
   .header-navigation-mobile__menu.active {
-   display: block;
+    display: block;
+    position:absolute;
+    left: 0;
+    width: 100%;
+    height: auto;
   }
 
   .header-navigation-mobile__menu-list {

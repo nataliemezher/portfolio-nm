@@ -35,10 +35,6 @@
     grid-column: span 4;
     width: 100%;
   }
-
-  .hero-section__image img {
-    /* width: 80%; */
-  }
   .hero-section__cta {
     grid-column: span 8;
     padding: 0;
