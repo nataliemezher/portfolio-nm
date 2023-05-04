@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import ProjectCard from "../parts/ProjectCard.js";
 
 import pokedex from "../../assets/pokedex-logo.svg";
-import sfmk from "../../assets/sfmk-logo.svg";
 /* 
 import profile_image from "../../assets/profile.svg"; */
 /* import sannaohlander from thumbnail + "sannaohlander"; */
@@ -31,7 +30,6 @@ function ProjectPreview() {
           <div className="project-preview__cards-item">
             {" "}
             <ProjectCard
-            thumbnail={sfmk}
               intro="Website made for art collections in Malmö city"
               title_site="sfmk.org"
               site_url="www.sfmk.org"
