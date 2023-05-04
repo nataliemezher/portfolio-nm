@@ -12,7 +12,7 @@ import './style/layout/footer.css';
 
 //Section
 import './style/section/hero.css';
-import './style/section/projects.css';
+import './style/section/project-preview.css';
 
 //Components
 import './style/components/button.css';
