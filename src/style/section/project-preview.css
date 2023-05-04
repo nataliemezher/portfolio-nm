@@ -1,0 +1,45 @@
+.project-preview-section {
+  background-color: var(--color-greypeach);
+}
+
+.project-preview__nav {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+}
+
+.project-preview__cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-preview__cards-item {
+  background-color: var(--color-seashell);
+  box-shadow: var(--box-shadow-black);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .project-preview__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .project-preview__cards-item {
+    max-width: 380px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .project-preview__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  .project-preview__cards-item {
+    max-width: 380px;
+  }
+}
