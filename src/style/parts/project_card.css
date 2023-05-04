@@ -1,0 +1,19 @@
+.project-card__cta-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.project-card {
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.site-link,
+.code-link {
+  margin-top: 1rem;
+  width: fit-content;
+}
+.project-card__intro {
+    padding: 1rem 0;
+}
